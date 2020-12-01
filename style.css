@@ -20,6 +20,8 @@
 }
 .header-div {
     display: flex;
+}
+.container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -112,7 +114,6 @@ a {
 }
 /* Навигация хедер конец */
 
-
 /* Герой */
 .hero-section {
     background: var(--secondary-background-color);
@@ -125,11 +126,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .hero-section .hero-title {
     display: flex;
@@ -161,20 +157,12 @@ a {
 }
 /* Герой конец*/
 
-
-/* Особенности */
-.features {
+.section {
     background-color: var(--primary-background-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.features .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+/* Особенности */
 .features-list {
     display: flex;
     justify-content: flex-start;
@@ -213,17 +201,12 @@ a {
 /* Чем мы занимаемся */
 .work {
     background-color: var(--primary-background-color);
-    padding-bottom: 94px;
+    padding-top: 0px;
 }
 .work-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .work-h {
     margin: 0 0 50px 0;
@@ -256,18 +239,6 @@ a {
 /* Наша команда */
 .team {
     background: var(--inactive-filter-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.team-div {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
 }
 .team .team-h {
     display: block;
@@ -326,16 +297,6 @@ a {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-div {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .footer .logo-footer {
     display: block;
     text-align: left;
@@ -369,21 +330,9 @@ a {
 /* Футер конец */
 
 /* Портфолио */
-.portfolio-main {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-    background: var(--primary-background-color);
-}
 .filters-div {
     display: flex;
     justify-content: center;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
 }
 .filters {
     display: flex;
@@ -426,13 +375,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
 }
 .products {
     display: flex;
