@@ -226,7 +226,10 @@ a {
 }
 .work-images li {
     list-style: none;
-    max-height: 294px;
+    /* max-height: 294px; */
+}
+.work-images .item {
+    display: block;
 }
 .work-images .item + .item {
     margin-left: 30px;
